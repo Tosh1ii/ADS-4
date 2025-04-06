@@ -57,7 +57,7 @@ int countPairs3(int *arr, int len, int value) {
     if (first != -1) {
       int last = search(arr, i + 1,
       len - 1, difV, false);
-      Counter += (last - first + 1);
+      counter += (last - first + 1);
     }
   }
   return counter;
